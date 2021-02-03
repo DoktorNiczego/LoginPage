@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Teko:wght@300&display=swap');
+
 body{
     background: #011129 url(assets/5.jpg) no-repeat;
     display: flex;
@@ -5,8 +7,8 @@ body{
     align-items: center;
 }
 .login_section{
-    /* max-width: 750px; */
-    display: flex;
+    margin-top: 50px;
+   display: flex;
 }
 .login_section_img{
     width: 650px;
@@ -16,9 +18,41 @@ body{
     flex-direction: column;
     justify-content: space-around;
     width: 400px;
+    margin-left: 15px;
+}
+.login_section_header{
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+input.form_input{
+    background: transparent;
+    font-size: 1.5em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Teko', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.but_signin{
+    background-color: rgb(1, 93, 212);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+}
+.but_forgot{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
 }
 
 footer{
-    max-width: 80%;
+    margin-top: 20px;
+    max-width: 50%;
     text-align: center;
+    color: white;
 }
