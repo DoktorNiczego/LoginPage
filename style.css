@@ -1,3 +1,13 @@
 body{
-    background: url(assets/8jpg) no-repeat;
+    background: #011129 url(assets/5.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_section{
+    max-width: 80%;
+}
+footer{
+    max-width: 80%;
+    text-align: center;
 }
