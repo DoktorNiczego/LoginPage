@@ -5,8 +5,19 @@ body{
     align-items: center;
 }
 .login_section{
-    max-width: 80%;
+    /* max-width: 750px; */
+    display: flex;
 }
+.login_section_img{
+    width: 650px;
+}
+.login_section_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+}
+
 footer{
     max-width: 80%;
     text-align: center;
