@@ -56,3 +56,13 @@ footer{
     text-align: center;
     color: white;
 }
+
+
+@media screen and (max-width: 1050px){
+    .login_section_img{
+        display: none;
+    }
+    .login_section_form{
+        background-color: rgba(0, 39, 71, 0.829);
+    }
+    }
